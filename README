@@ -1,0 +1,35 @@
+This is a custom distribution of libRocket, version 1.2.2, with a XMake-based build
+system.
+
+The original README file of libRocket is at 'readme-librocket.md'.
+
+Note: Unlike the official libRocket repository, this one doesn't include any example, nor
+the Python bindings.
+
+
+License
+-------
+
+libRocket's license is unchanged: this library is free software; you can redistribute
+it and/or modify it under the terms of the MIT license. See the file 'readme-librocket.md'
+for the details.
+
+
+Submodules
+----------
+
+This distribution use XMake and FreeType as GIT submodules. To download them, do:
+
+    $ git submodule init
+    $ git submodule update
+
+
+Compilation
+-----------
+
+It is recommended to compile the library in a separate folder. Here's how I do it:
+
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ make

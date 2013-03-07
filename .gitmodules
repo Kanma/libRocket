@@ -1,0 +1,6 @@
+[submodule "Dependencies/freetype"]
+	path = Dependencies/freetype
+	url = git://github.com/Kanma/FreeType.git
+[submodule "Dependencies/XMake"]
+	path = Dependencies/XMake
+	url = git://github.com/Kanma/XMake.git
